@@ -1,0 +1,91 @@
+data/**
+data.zip
+homework8/download.ipynb
+homework8/model.py
+
+# --- Python General ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Entornos Virtuales (Virtual Environments) ---
+# Nombres comunes de carpetas de entornos
+venv/
+env/
+.env/
+.venv/
+env.bak/
+venv.bak/
+anaconda/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+# Opcional: Si usas JupyterLab
+.jupyter/
+
+# --- Datos (MUY IMPORTANTE) ---
+# Ignorar carpetas donde se guardan datasets para no bloquear Git
+data/
+datasets/
+raw/
+processed/
+external/
+interim/
+
+
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hd5
+*.pkl
+*.pickle
+*.json
+*.sql
+*.sqlite
+
+# --- Modelos y Pesos ---
+*.pt
+*.pth
+*.onnx
+*.pb
+models/
+model_checkpoints/
+
+# --- IDEs y Editores ---
+.vscode/
+.idea/
+*.swp
+
+# --- Logs y Visualizaciones ---
+*.log
+logs/
+# *.png
+# *.jpg
+# *.svg
+# figures/
+
+# --- Configuración y Secretos ---
+.env
+.env.local
+config.yaml
+credentials.json
